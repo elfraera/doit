@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body class="plainclass">
+<!-- body class="backclass" -->
+<div class="container">
+  <header>
+<div class="box">
+<div class="row">
+  <div class="column left">
+     <img src="{{ site.baseurl }}/assets//images/JWalker2.jpg" alt="J. Walker" style="width:128px; border-radius:50%">
+  </div>
+  <div class="column middle">
+    {% if page.title %}{{ page.title | escape }}
+    {% else %}{{ site.title | escape }}{% endif %}
+  </div>
+  <div class="column right">
+    {% if page.author %}{{ page.author | escape }}
+    {% else %}{{ site.author | escape }}{% endif %}
+  </div>
+</div>
+</div>
+    <hr>
+    <h1>{% if page.title %}{{ page.title | escape }}
+    {% else %}{{ site.title | escape }}{% endif %}</h1>
+    <h3>{% if page.author %}{{ page.author | escape }}
+    {% else %}{{ site.author | escape }}{% endif %}</h3>
+  </header>
+  {% include navbar.html %}
+  <section>
+     {{ content }}
+  </section>
+  {% include footer.html %}
+  {% include google-analytics.html %}
+  {% include scripts.html %}
+</div>
+</body>
+</html>
+
