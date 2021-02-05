@@ -22,8 +22,6 @@ echo "# ########## ########## ########## ########## ########## RSYNC DIR1"
 time nice -$NICE rsync $ROPT $DIR1  $TO$DIR1
 echo "# ########## ########## ########## ########## ########## RSYNC DIR2"
 time nice -$NICE rsync $ROPT $DIR2  $TO$DIR2
-echo "# ########## ########## ########## ########## ########## GIT"
-git pull --all; git add -A; git commit -m "coba jekyll"; git push --all
 echo "# ########## ########## ########## ########## ########## LS"
 ls -Fa
 cd ../../
