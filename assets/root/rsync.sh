@@ -1,3 +1,6 @@
+#!/bin/bash
+# START Sat 06 Feb 2021 10:42:14 WIB
+
 ROPT="-auv --delete --progress --no-times --no-perms --no-owner --no-group --checksum"
 FROM="./"
 TO="../../"
