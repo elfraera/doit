@@ -2,21 +2,26 @@
 layout: "layout"
 ---
 
-This is how "<b>ME</b>" do it!
+This site is <b>NOT</b> about the <b>BEST PRACTICE</b> to do something!
+It is just about how <b>I</b> did it.
+And by the time you read this, perhaps not anymore.
+This is how me do it!
 You might ask why "<b>ME</b>", not "<b>I</b>"?
-Because ME rhymes better!
+Because <b>ME</b> rhymes better.
+
 No animals were harmed during creating this page.
 No original ideas were used on this page.
-Last, no claim was made that this is the best practice.
 Most ideas were shamelessly stolen from "Here, There, and Everywhere",
 including but not limited to "bootstrap", "stack overflow", "Mike Dane",
 "w3schools", et al.
 
 This site was developed on [GitHub](https://github.com/) 
 and is deployed on [GitHub Page](https://pages.github.com/).
+Unfortunately, it is <b>NOT</b> "mobile friendly" (yet).
 If you like it, you can whatever you want: clone it, or fork it, or copy it, or even ignore it!
 The source code is available [here](https://github.com/ThisIsHowMeDoIt/doit/tree/master/assets).
 For more details, see [GitHub Page with no Jekyll Theme](001.md).
+
 
 <div class="youtube">
   <div class="youtube yinfo">
