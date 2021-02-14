@@ -2,13 +2,14 @@
 layout: "layout"
 ---
 
-This site is <b>NOT</b> about the <b>BEST PRACTICE</b> to do something!
-It is just about how <b>I</b> did it.
-And by the time you read this, perhaps not anymore.
-This is how me do it!
+"<b>This Is How Me Do It</b>" is a collection of records.
+More precisely, how <b>ME DID</b> it (in the past).
+At the time you read this, ME might do it differently,
 You might ask why "<b>ME</b>", not "<b>I</b>"?
 Because <b>ME</b> rhymes better.
 
+
+So, it is <b>NOT</b> about the <b>BEST PRACTICE</b> to do something!
 No animals were harmed during creating this page.
 No original ideas were used on this page.
 Most ideas were shamelessly stolen from "Here, There, and Everywhere",
