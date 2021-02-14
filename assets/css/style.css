@@ -11,7 +11,11 @@
 .plainclass {
   color:            white;
   background-color: #001030;
-  background-color: #34568b;
+}
+
+.plainclass1 {
+  color:            white;
+  background-color: black;
 }
 
 .container {
@@ -62,6 +66,7 @@
   padding-bottom:   5px;
   padding-left:     30px;
   font-size:        1.5em;
+  font-weight:      bold;
 }
 
 .right2 {
@@ -71,6 +76,8 @@
   padding-bottom:   5px;
   padding-left:     30px;
   font-size:        1.1em;
+  font-weight:      bold;
+}
 }
 
 .youtube {
@@ -94,7 +101,7 @@
 }
 
 .yinfo {
-  width:            calc(75%  - 20px);
+  width:            calc(75%  - 30px);
   height:           calc(100% - 20px);
   padding-top:      10px;
   padding-bottom:   10px;
@@ -124,6 +131,28 @@
   background: blue;
   color: #CCCCCC;
 }
+
+pre {
+  border:        3px solid rgba(255, 255, 255, 0.15);
+  padding:       10px; 
+  color:         #b5e853;
+  font-size:     0.8em; 
+  border-radius: 2px;
+}
+
+/*
+  ZCZC
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 10px; 
+  color: #b5e853;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 2px;
+  word-wrap: normal;
+  overflow: auto;
+  overflow-y: hidden;
+  max-width: 65%;
+
+ */
 
 /*
  ************************************************************

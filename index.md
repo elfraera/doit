@@ -3,7 +3,7 @@ layout: "layout"
 ---
 
 "<b>This Is How Me Do It</b>" is a collection of records.
-More precisely, how <b>ME DID</b> it (in the past).
+More precisely, how <b>ME DID</b> it in the past.
 At the time you read this, ME might do it differently,
 You might ask why "<b>ME</b>", not "<b>I</b>"?
 Because <b>ME</b> rhymes better.
@@ -23,15 +23,5 @@ If you like it, you can whatever you want: clone it, or fork it, or copy it, or 
 The source code is available [here](https://github.com/ThisIsHowMeDoIt/doit/tree/master/assets).
 For more details, see [GitHub Page with no Jekyll Theme](001.md).
 
-
-<div class="youtube">
-  <div class="youtube yinfo">
-    Qapla,<br>{{ site.author }}<br>The Ghost Who Drinks!
-  </div>
-  <div class="youtube yvideo">
-    <iframe src="https://www.youtube.com/embed/jEoM3qan9Gs" width="100%"
-    frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
-
+Qapla,<br>{{ site.author }}<br>The Ghost Who Drinks!
 
