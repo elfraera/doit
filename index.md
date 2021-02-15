@@ -28,7 +28,9 @@ If you like it, you can whatever you want: clone it, or fork it, or copy it, or 
 The source code is available at [GitHub.com](https://github.com/ThisIsHowMeDoIt/doit/)
 or it can be downloaded 
 [here](https://github.com/ThisIsHowMeDoIt/doit/archive/master.zip).
-For more details, see [GitHub Page with no Jekyll Theme](001.md).
+For more details, see:
+* [GitHub Page with no Jekyll Theme](001.md)
+* [Installing Jekyll on Debian](005.md)
 
 Qapla,<br>{{ site.author }}<br>The Ghost Who Drinks!
 

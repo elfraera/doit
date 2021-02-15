@@ -1,9 +1,9 @@
 title:       "This Is How Me Do It!"
-version:     "0011k---15-Feb-2021"
+version:     "0011l---15-Feb-2021"
 copyright:   "2021-2021"
 description: >- 
-  Describe1.
-  Describe2.
+  This Is How Me Do It!
+  This Is How Me Do It!
 # baseurl: "" # e.g. /blog
 # url: ""     # e.g. http://example.com
 google_analytics: "UA-89852122-6"
@@ -14,7 +14,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 urlweb:           "https://doit.vlsm.org/"
-urlcontact:       "TBS"
+urlcontact:       "TBA"
 urlgithub:        "https://github.com/ThisIsHowMeDoIt/doit"
 urlghpage:        "https://doit.vlsm.org/"
 keywords:         "jekyll, testing"
