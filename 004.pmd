@@ -69,17 +69,5 @@ assets/scripts/includeScript.py
 (> assets/scripts/includeScript.py <)
 ```
 
-
-
-
-[](8)
-<br>
-### 
-
-```
-(> 
-<)
-```
-
 <hr>
 {% include inc001.html %}
