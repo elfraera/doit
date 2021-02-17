@@ -7,10 +7,15 @@ title:  "Installing Jekyll On Debian"
 {% include inc005.html %}
 <hr>
 
-This page is about how to install Jekyll on Debian.
+## User Level Settings
 
-## Purging previously installation
+### (user) Test X11 with xclock
 
+You have installed X11. Test it if it works.
+
+<img src="{{ site.baseurl }}/assets/images/doit-007.jpg" style="width:960px;">
+
+<br>
 (user) Append to file $HOME/.profile 
 
 ```
@@ -19,7 +24,8 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 
 ```
 
-Update file $HOME/.profile
+<br>
+(user) Update file $HOME/.profile
 
 ```
 source .profile
@@ -29,31 +35,50 @@ source .profile
 <br>
 ### assets/scripts/clean-home.sh
 
-(user) This script (clean-home.sh) purges whatever was installed previously at $HOME.
+(user) This script (clean-home.sh) purges whatever was installed previously (but failed) at $HOME.
 
 ```
 (> assets/scripts/clean-home.sh <)
 ```
 
 <br>
-### assets/scripts/sources.list
+### RBENV
 
-(root) Debian package sources list.
+(user) assets/scripts/set-rbenv1.sh
 
 ```
-(> assets/scripts/sources.list <)
+(> assets/scripts/set-rbenv1.sh <)
 ```
 
 <br>
-### assets/scripts/clean-system.sh
-
-(root) This script (clean-system.sh) purges whatever was installed previously.
+(user) assets/scripts/set-rbenv2.sh
 
 ```
-(> assets/scripts/clean-system.sh <)
+(> assets/scripts/set-rbenv2.sh <)
 ```
+
+<br>
+### Test Jekyll
+
+### INPUT
+```
+rm -rf os888
+git clone https://github.com/cbkadal/os888.git
+cd os888
+bundle install
+bundle clean --force
+jekyll serve -H 0.0.0.0
+
+```
+
+<br>
+### Test X11 (xclock)
+
+You have install X11. Test it if it works.
+
+<img src="{{ site.baseurl }}/assets/images/doit-007.jpg" style="width:960px;">
 
 <hr>
 {% include inc005.html %}
-[NEXT](005.md)
+[NEXT](006.md)
 

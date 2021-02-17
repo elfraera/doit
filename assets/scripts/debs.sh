@@ -1,11 +1,16 @@
+#!/bin/bash
 # REV07: Wed 17 Feb 2021 11:45:40 WIB
 # START: Tue Jun 18 14:47:15 WIB 2019
 #
+# debs.sh installs related debian packages.
+#         You need SuperUser (root) "su -" or "sudo su -" access.
+#
 # Copyright (C) 2019-2021 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
-# This program is free script/software. This program is distributed in the hope
-# that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
-# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# This is a free script. It is distributed in the
+# hope that it will be useful, but WITHOUT ANY WARRANTY;
+# without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE.
 
 DEBS1="
 autoconf

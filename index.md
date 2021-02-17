@@ -30,7 +30,7 @@ or it can be downloaded
 [here](https://github.com/ThisIsHowMeDoIt/doit/archive/master.zip).
 For more details, see:
 * [GitHub Page with no Jekyll Theme](001.md)
-* [Installing Jekyll on Debian](005.md)
+* [Installing Jekyll on a VirtualBox](005.md)
 
 Qapla,<br>{{ site.author }}<br>The Ghost Who Drinks!
 

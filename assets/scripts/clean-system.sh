@@ -2,12 +2,16 @@
 # REV06: Wed 17 Feb 2021 11:42:32 WIB
 # REV05: Tue 16 Feb 2021 00:10:14 WIB
 # START: Tue Jun 18 14:16:04 WIB 2019
-# 
+#
+# clean-system.sh purges whatever was installed previously at the system level.
+#                       You need SuperUser (root) "su -" or "sudo su -" access.
+#
 # Copyright (C) 2019-2021 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
-# This program is free script/software. This program is distributed in the hope 
-# that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
-# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+# This is a free script. It is distributed in the
+# hope that it will be useful, but WITHOUT ANY WARRANTY;
+# without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE.
 
 RMOPT="-rfv"
 

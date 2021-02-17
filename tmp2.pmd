@@ -1,0 +1,59 @@
+---
+layout: "layout"
+title:  "Installing Jekyll On Debian"
+---
+
+<hr>
+{% include inc005.html %}
+<hr>
+
+This page is about how to install Jekyll on Debian.
+
+## Purging previously installation
+
+(user) Append to file $HOME/.profile 
+
+```
+export PATH="$HOME/.rbenv/bin:$PATH"
+[ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"
+
+```
+
+Update file $HOME/.profile
+
+```
+source .profile
+
+```
+
+<br>
+### assets/scripts/clean-home.sh
+
+(user) This script (clean-home.sh) purges whatever was installed previously at $HOME.
+
+```
+(> assets/scripts/clean-home.sh <)
+```
+
+<br>
+### assets/scripts/sources.list
+
+(root) Debian package sources list.
+
+```
+(> assets/scripts/sources.list <)
+```
+
+<br>
+### assets/scripts/clean-system.sh
+
+(root) This script (clean-system.sh) purges whatever was installed previously.
+
+```
+(> assets/scripts/clean-system.sh <)
+```
+
+<hr>
+{% include inc005.html %}
+[NEXT](005.md)
+

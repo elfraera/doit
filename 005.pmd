@@ -1,45 +1,64 @@
 ---
 layout: "layout"
-title:  "Installing Jekyll On Debian"
+title:  "Installing Jekyll On a VirtualBox"
 ---
 
 <hr>
 {% include inc005.html %}
 <hr>
 
-<br>
-## Debian Packages
+## Jekyll on a VirtualBox Debian Guest 
+
+Ever heard how "great" Ruby is?
+If that is really true, how come not many are (still) using it?
+Ruby is free software, i.e. it is free if you have free time!
+IMHO, the greatest f*ing problem of Ruby is 
+"Just because version X works fine, version X+1 should work fine too!"
+Therefore, stick with version X until it is obsolete or is vulnerable.
+Why using Ruby anyway? 
+Because GitHub and GitHub Page were developed with it and so does Jekyll.
+
+This page is about how to install Jekyll with Rbenv on a VirtualBox Debian Guest.
+Why Rbenv? Because <b>This Is How Me Do It</b>!
+It works today but no warranty it will still work the day after.
+Take it or leave it.
+And, you have been warned!
 
 <br>
-### (root) assets/scripts/debs.sh
+## SuperUser (root) Settings
+
+You need to have root (substitute SuperUser "su -" or "sudo su -") access for the first part of the installation.
+For the next part, just user privilege is needed.
+
+<br>
+### assets/scripts/sources.list
+
+(root) Debian package sources list file (buster).
+
+```
+(> assets/scripts/sources.list <)
+```
+<br>
+### assets/scripts/clean-system.sh
+
+(root) This script (clean-system.sh) purges whatever was installed previously (but failed).
+
+```
+(> assets/scripts/clean-system.sh <)
+```
+
+<br>
+## Installing Debian Packages
+
+### assets/scripts/debs.sh
+
+(root) Install these following packages
 
 ```
 (> assets/scripts/debs.sh <)
 ```
 
-<br>
-## RBENV
-
-<br>
-### (user) assets/scripts/set-rbenv1.sh
-
-```
-(> assets/scripts/set-rbenv1.sh <)
-```
-
-<br>
-### (user) assets/scripts/set-rbenv2.sh
-
-```
-(> assets/scripts/set-rbenv2.sh <)
-```
-
-<br>
-## Test X11 (xclock)
-
-<img src="{{ site.baseurl }}/assets/images/doit-007.jpg" style="width:960px;">
-
 <hr>
 {% include inc005.html %}
-[NEXT](005.md)
+[NEXT](006.md)
 
