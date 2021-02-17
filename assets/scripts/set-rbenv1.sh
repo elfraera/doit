@@ -8,7 +8,8 @@
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-RUBY="2.6.6"
+# RUBY="2.6.6"
+RUBY="3.0.0"
 
 [ -d $HOME/.rbenv ] || git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"

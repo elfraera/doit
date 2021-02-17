@@ -8,23 +8,30 @@ title:  "Installing Jekyll On Debian"
 <hr>
 
 <br>
-## (root) Debian Packages
+## Debian Packages
 
 <br>
-### assets/scripts/debs.sh
+### (root) assets/scripts/debs.sh
 
 ```
 (> assets/scripts/debs.sh <)
 ```
 
 <br>
-## (user) set rbenv
+## RBENV
 
 <br>
-### assets/scripts/set-rbenv1.sh
+### (user) assets/scripts/set-rbenv1.sh
 
 ```
 (> assets/scripts/set-rbenv1.sh <)
+```
+
+<br>
+### (user) assets/scripts/set-rbenv2.sh
+
+```
+(> assets/scripts/set-rbenv2.sh <)
 ```
 
 <br>

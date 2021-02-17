@@ -1,16 +1,15 @@
 #!/bin/bash
-# REV08: Sat 21 Nov 2020 06:46:44 WIB
-# REV06: Thu Feb 13 14:54:50 WIB 2020
-# REV05: Tue Jan  7 10:09:51 WIB 2020
+# REV09: Wed 17 Feb 2021 13:21:22 WIB
 # START: Tue Jun 18 16:56:27 WIB 2019
 # 
-# Copyright (C) 2019-2020 Rahmat M. Samik-Ibrahim
+# Copyright (C) 2019-2021 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This program is free script/software. This program is distributed in the hope 
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied 
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-RUBY="2.6.6"
+# RUBY="2.6.6"
+RUBY="3.0.0"
 
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
 [ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"

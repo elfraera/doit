@@ -6,7 +6,7 @@ ALL: 004.md 005.md 006.md
 	assets/css/style.css assets/scripts/includeScript.py Makefile
 	python assets/scripts/includeScript.py < 004.pmd > 004.md
 
-005.md: 005.pmd assets/scripts/debs.sh 
+005.md: 005.pmd assets/scripts/debs.sh assets/scripts/set-rbenv1.sh
 	python assets/scripts/includeScript.py < 005.pmd > 005.md
 
 006.md: 006.pmd assets/scripts/clean-home.sh assets/scripts/clean-system.sh \
