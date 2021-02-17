@@ -7,7 +7,7 @@
 # that it will be useful, but WITHOUT ANY WARRANTY; without even the implied
 # warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-DEBS="
+DEBS1="
 autoconf
 bison 
 build-essential
@@ -31,23 +31,30 @@ nodejs
 sqlite3
 software-properties-common
 x11-apps
-yarn
 zlib1g-dev
 "
 
-curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg     | apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+DEBS2="
+yarn
+"
 
 echo "====== UPDATE  ==========";
 apt-get update;
 echo "====== UPGRADE ==========";
 apt-get dist-upgrade -y;
+echo "====== INSTALL1 =========";
+apt-get install $DEBS1 -y
+
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg     | apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+
+echo "====== INSTALL2 =========";
+apt-get install $DEBS2 -y
+
 echo "====== REMOVE  ==========";
 apt-get autoremove --purge -y;
 echo "====== CLEAN   ==========";
 apt-get autoclean -y;
-
-apt-get install $DEBS -y
 
 exit 0
 
