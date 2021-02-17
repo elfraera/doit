@@ -17,6 +17,8 @@ RUBY="2.6.6"
 # RUBY="3.0.0"
 
 [ -d $HOME/.rbenv ] || git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
+echo "==== ==== ==== ==== ==== ==== ==== source .profile"
+source $HOME/.profile
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
 [ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"
 sync
