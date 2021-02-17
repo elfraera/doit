@@ -68,8 +68,6 @@ jekyll serve -H 0.0.0.0
 
 On VirtualBox, do not forget to redirect port 127.0.0.1:5000 (Host) to port 10.0.2.15:4000 (Guest).
 
-
-```
 <hr>
 {% include inc005.html %}
 [NEXT](006.md)
