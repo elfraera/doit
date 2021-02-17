@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV06: Wed 17 Feb 2021 11:42:32 WIB
 # REV05: Tue 16 Feb 2021 00:10:14 WIB
 # START: Tue Jun 18 14:16:04 WIB 2019
 # 
@@ -31,10 +32,10 @@ for II in $DELDEB ; do
    sudo apt-get purge $II -y
 done
 
-sudo apt-get update
-sudo apt-get dist-upgrade -y
-sudo apt-get autoremove --purge -y
-sudo apt-get autoclean -y;
+apt-get update
+apt-get dist-upgrade -y
+apt-get autoremove --purge -y
+apt-get autoclean -y;
 
 for II in $DELETE ; do
    [ -f $II ] && (echo "Delete file   $II"; sudo rm $RMOPT $II)
