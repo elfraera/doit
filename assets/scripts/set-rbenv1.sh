@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV03: Tue 15 Jun 2021 18:06:40 WIB
 # REV02: Wed 17 Feb 2021 15:15:11 WIB
 # START: Tue Jun 18 16:56:27 WIB 2019
 # 
@@ -12,13 +13,13 @@
 # or FITNESS FOR A PARTICULAR PURPOSE.
 
 # Try until it works.
-RUBY="2.6.6" 
-# RUBY="2.7.2"
-# RUBY="3.0.0"
+RUBY="2.6.7" 
+# RUBY="2.7.3"
+# RUBY="3.0.1"
 
 [ -d $HOME/.rbenv ] || git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
-echo "==== ==== ==== ==== ==== ==== ==== source .profile"
-source $HOME/.profile
+echo "==== ==== ==== ==== ==== ==== ==== source .bash_profile"
+source $HOME/.bash_profile
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
 [ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"
 sync
