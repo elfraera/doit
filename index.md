@@ -32,6 +32,7 @@ or it can be downloaded
 For more details, see:
 * [GitHub Page with no Jekyll Theme](001.md)
 * [Installing Jekyll on a VirtualBox](005.md)
+* [GitHub Page Template](https://template.vlsm.org/)
 
 Qapla,<br>{{ site.author }}<br>The Ghost Who Drinks!
 
