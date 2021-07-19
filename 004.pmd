@@ -14,6 +14,8 @@ a [GitHub Page](https://pages.github.com/).
 <br>
 ## GitHub Page Configuration Files
 
+* Files inside repo <https://github.com/ThisIsHowMeDoIt/doit/>:
+
 <br>
 ### Makefile
 
@@ -86,5 +88,9 @@ a [GitHub Page](https://pages.github.com/).
 ```
 
 <hr>
+
 {% include inc001.html %}
-NEXT](004.md)
+
+
+[NEXT: Using your own domain name (eg. doit.vlsm.org)](002.md)
+
