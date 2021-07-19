@@ -2,7 +2,7 @@
 layout: "layout"
 ---
 
-"<b>This Is How Me Do It</b>" is a collection of records.
+**"[This Is How Me Do It](https://youtu.be/jEoM3qan9Gs)"** is a collection of records.
 More precisely, how <b>ME DID</b> it in the past.
 At the time you read this, ME might do it differently.
 You might ask why "<b>ME</b>", not "<b>I</b>"?
