@@ -12,7 +12,7 @@ title:  "Installing Jekyll On a VirtualBox"
 Did you ever hear how “great” Ruby is?
 If that is true, how come not many are (still) using it?
 Ruby is free software, i.e., it is free if you have free time!
-IMHO, the most significant f*ing problem of Ruby is “Just because version X works fine;
+IMHO, Ruby's most significant f*ing problem is “Just because version X works fine;
 version X+1 should work fine too!”
 Therefore, stick with version X until it is obsolete or is vulnerable.
 Why using Ruby anyway?
@@ -22,7 +22,7 @@ This page is about how to install Jekyll with Rbenv on a VirtualBox Debian Guest
 Why Rbenv?
 Because This Is How Me Do It!
 If it works today, there is no warranty if it will still work the day after.
-Take it or leave it. And, you have been warned!
+Take it or leave it.  I have spoken!
 
 <br>
 ## VirtualBox Debian Guest Setting
@@ -81,13 +81,12 @@ diff sources.list /etc/apt/sources.list
 wget https://doit.vlsm.org/assets/scripts/clean-system.sh
 
 ```
-* Run the script:
+* You need to have SuperUser (root) privilege ("su -" or "sudo su -") to run the script:
 
 ```
 bash clean-system.sh
 
 ```
-* You need to have SuperUser (root) privilege ("su -" or "sudo su -") to run the script.
 
 <br>
 ## Installing Debian Packages
@@ -105,13 +104,12 @@ bash clean-system.sh
 wget https://doit.vlsm.org/assets/scripts/debs.sh
 
 ```
-* Run the script:
+* You need to have SuperUser (root) privilege ("su -" or "sudo su -") to run the script.
 
 ```
 bash debs.sh
 
 ```
-* You need to have SuperUser (root) privilege ("su -" or "sudo su -") to run the script.
 
 <hr>
 {% include inc005.html %}
