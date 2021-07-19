@@ -2,14 +2,15 @@
 layout: "layout"
 ---
 
-**"[This Is How Me Do It](https://youtu.be/jEoM3qan9Gs)"** is a collection of records.
-More precisely, how <b>ME DID</b> it in the past.
-At the time you read this, ME might do it differently.
+**"[This Is](https://youtu.be/jEoM3qan9Gs)"** a collection of
+**"[How Me Do It](https://youtu.be/jEoM3qan9Gs)"** records.
+More precisely, how me <b>DID</b> it in the past.
+At the time you read this, it might already be done differently!
 You might ask why "<b>ME</b>", not "<b>I</b>"?
 Because <b>ME</b> rhymes better.
 
 
-So, it is <b>NOT</b> about the <b>BEST PRACTICE</b> to do something!
+Therefore, this is <b>NOT</b> about the <b>BEST PRACTICE</b> to do something!
 No animals were harmed while creating this page.
 No original ideas were used on this page.
 Most ideas were shamelessly stolen from "Here, There, and Everywhere",
