@@ -1,9 +1,10 @@
 #!/bin/bash
+# REV12: Mon 19 Jul 2021 17:06:42 WIB
 # REV11: Tue 15 Jun 2021 18:28:57 WIB
 # REV10: Wed 17 Feb 2021 15:15:38 WIB
 # START: Tue Jun 18 16:56:27 WIB 2019
 #
-# set-rbenv2.sh installs rubby using rbenlv.
+# set-rbenv2.sh installs the bundler.
 #
 # Copyright (C) 2019-2021 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/

@@ -52,7 +52,7 @@ For the next part, just user privilege is needed.
 ```
 (> assets/scripts/sources.list <)
 ```
-* You might "cut and paste" that file or fetch it with:
+* You might "copy and paste" that file or fetch it with:
 
 ```
 wget https://doit.vlsm.org/assets/scripts/sources.list
@@ -75,7 +75,7 @@ diff sources.list /etc/apt/sources.list
 ```
 (> assets/scripts/clean-system.sh <)
 ```
-* You might "cut and paste" that file or fetch it with:
+* You might "copy and paste" that file or fetch it with:
 
 ```
 wget https://doit.vlsm.org/assets/scripts/clean-system.sh
@@ -99,7 +99,7 @@ bash clean-system.sh
 ```
 (> assets/scripts/debs.sh <)
 ```
-* You might "cut and paste" that file or fetch it with:
+* You might "copy and paste" that file or fetch it with:
 
 ```
 wget https://doit.vlsm.org/assets/scripts/debs.sh
