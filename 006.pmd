@@ -11,7 +11,20 @@ title:  "Installing Jekyll On Debian"
 
 ### (user) Test X11 with xclock
 
-You have installed X11 on your Debian guest. Test it if you can display "xclock" on your host.
+* You should have installed "xclock" (x11-apps) on your Debian guest.
+* You should enable option X11 when ssh to the virtual guest.
+* Your NAT ports may be different. Assuming user "cbkadal" with local port is "6023".
+
+```
+ssh -X -p 6023 cbkadal@localhost
+
+```
+* Test it if you can display "xclock" on your host.
+
+```
+xclock
+
+```
 
 <img src="{{ site.baseurl }}/assets/images/doit-007.jpg" style="width:960px;">
 
