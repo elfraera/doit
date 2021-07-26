@@ -1,4 +1,5 @@
 #!/bin/bash
+# REV13: Mon 26 Jul 2021 14:59:41 WIB
 # REV12: Mon 19 Jul 2021 17:06:42 WIB
 # REV11: Tue 15 Jun 2021 18:28:57 WIB
 # REV10: Wed 17 Feb 2021 15:15:38 WIB
@@ -14,9 +15,9 @@
 # or FITNESS FOR A PARTICULAR PURPOSE.
 
 # Try until it works.
-RUBY="2.6.7"
-# RUBY="2.7.3"
-# RUBY="3.0.1"
+RUBY="2.6.8"
+# RUBY="2.7.4"
+# RUBY="3.0.2"
 
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
 [ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"
