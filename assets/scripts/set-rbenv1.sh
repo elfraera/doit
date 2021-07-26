@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV04: Mon 26 Jul 2021 14:58:32 WIB
+# REV05: Mon 26 Jul 2021 15:01:58 WIB
 # REV03: Tue 15 Jun 2021 18:06:40 WIB
 # REV02: Wed 17 Feb 2021 15:15:11 WIB
 # START: Tue Jun 18 16:56:27 WIB 2019
@@ -13,8 +13,9 @@
 # without even the implied warranty of MERCHANTABILITY
 # or FITNESS FOR A PARTICULAR PURPOSE.
 
+# See also set-rbenv2.sh
 # Try until it works.
-RUBY="2.6.8" 
+RUBY="2.6.8"
 # RUBY="2.7.4"
 # RUBY="3.0.2"
 
