@@ -50,7 +50,7 @@ For the next part, just user privilege is needed.
 <br>
 ### assets/scripts/sources.list
 
-* Debian package sources list file (buster).
+* Debian 11 (bullseye) package sources list file.
 
 ```
 (> assets/scripts/sources.list <)
